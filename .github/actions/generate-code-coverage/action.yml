@@ -1,7 +1,8 @@
 # Copyright 2020-2024 The MathWorks, Inc.
 
-# Composite Action to generate Code Coverage XML and Upload it
 name: Generate Code Coverage XML
+description: |
+  Generates Code Coverage for the Python and Javascript code and uploads it to codecov.io
 
 inputs:
   codecov-token:
