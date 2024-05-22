@@ -30,7 +30,7 @@ runs:
       shell: bash
 
     - name: Generate Code Coverage report for Python code
-      run: !
+      run: |
         coverage run -m pytest tests/unit
         coverage xml -o coverage.xml
       shell: bash
