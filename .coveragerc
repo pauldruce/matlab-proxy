@@ -1,2 +1,2 @@
 [run]
-omit = setup.py,.venv/*,tests/*,matlab_proxy/gui/*
+omit = setup.py,.venv/*,matlab_proxy/gui/*,tests/*
